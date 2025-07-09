@@ -65,14 +65,14 @@
       const username = document.getElementById('username').value.trim();
       const password = document.getElementById('password').value.trim();
 
-      // Basic validation
+  
       if (username === "" || password === "") {
         alert("Please fill in all fields.");
         return;
       }
 
-      // Example static validation (can be extended to backend/API)
-      if (username === "admin" && password === "12345") {
+      
+      if (username === "User" && password === "12345") {
         alert("Login successful!");
       } else {
         alert("Invalid username or password.");
